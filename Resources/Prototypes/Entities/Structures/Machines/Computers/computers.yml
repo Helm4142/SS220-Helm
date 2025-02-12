@@ -96,10 +96,8 @@
     key: enum.EmergencyConsoleUiKey.Key
   - type: UserInterface
     interfaces:
-        enum.EmergencyConsoleUiKey.Key:
-          type: EmergencyConsoleBoundUserInterface
-        enum.WiresUiKey.Key:
-          type: WiresBoundUserInterface
+      - key: enum.EmergencyConsoleUiKey.Key
+        type: EmergencyConsoleBoundUserInterface
   - type: PointLight
     radius: 1.5
     energy: 1.6
